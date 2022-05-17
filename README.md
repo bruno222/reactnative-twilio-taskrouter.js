@@ -1,8 +1,10 @@
-Fork of TaskRouter v2
+## TaskRouter v2 for ReactNative
 
-Changed a little bit to work with React Native.
+This is a fork of [TaskRouter v2](https://github.com/twilio/twilio-taskrouter.js)
 
-How to use it:
+Changed as minimal as possible just to make it work with React Native.
+
+## How to use it:
 
 ```
 npm install
@@ -22,4 +24,6 @@ worker.addListener('reservationCreated', (a: any) => console.log('taskrouter.on.
 worker.addListener('ready', (a: any) => console.log('taskrouter.on.ready', a));
 ```
 
-That is all. Once every quarter more or less, remember to pull the latest original code of taskrouter and put here to avoid having a super old taskrouter SDK running in your ReactNative project.
+## Keep things up to date
+
+Once every quarter more or less, remember to pull the latest original code of taskrouter and put here to avoid having a super old taskrouter SDK running in your ReactNative project.
