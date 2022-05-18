@@ -10,12 +10,13 @@ Changed as minimal as possible just to make it work with React Native.
 npm install
 npm run build:dev
 copy manually for now (urgh!) the dist/index.window.js and put in your React Native project.
+copy manually for now (urgh!) the dist/types.d.ts and and put on the same folder as index.window.js, also renaming to index.window.d.ts
 ```
 
 Then on ReactNative project, you do something like:
 
 ```
-const { Worker, Supervisor, Reservation } = require('../taskrouter-for-reactnative/index.window');
+import { Reservation, Supervisor, Worker } from './taskrouter-for-reactnative/index.window';
 
 worker = new Worker(flexToken, {});
 console.log('@@@ worker', worker);
