@@ -10,7 +10,7 @@ Changed as minimal as possible just to make it work with React Native.
 npm install
 npm run build:dev
 copy manually for now (urgh!) the dist/index.window.js and put in your React Native project.
-copy manually for now (urgh!) the dist/types.d.ts and and put on the same folder as index.window.js, also renaming to index.window.d.ts
+copy manually for now (urgh!) the dist/types.d.ts and and put on the same folder as index.window.js, also renaming it to index.window.d.ts
 ```
 
 Then on ReactNative project, you do something like:
